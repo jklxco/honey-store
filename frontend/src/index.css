@@ -11,6 +11,10 @@ body {
   padding: 0;
 }
 
+section {
+  margin-top: 5rem;
+}
+
 /* NAVBAR */
 
 nav {
@@ -54,13 +58,18 @@ nav {
 
 /* FEATURED PRODUCTS */
 
+.featured-products {
+  padding: 0 2rem;
+}
+
 .featured-products h1 {
   text-align: center;
 }
 
 .products-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  
 }
 
 .product-details {
@@ -70,5 +79,53 @@ nav {
 
 .product-preview img {
   width: 300px;
-  height: auto;
+}
+
+.featured-products button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--clr-gold);
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1rem;
+  float: right;
+}
+
+/* WHY US SECTION */
+
+.why-us-section {
+  background-color: var(--clr-gold);
+}
+
+.why-us-card {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.why-us-card * {
+  margin: 2rem;
+}
+
+.why-us-card:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.why-us-section h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.why-us-section h3 {
+  font-size: 2rem;
+  
+}
+
+.why-us-section p {
+  font-size: 1.25rem;
+  
+}
+
+.why-us-img {
+  width: 400px;
 }

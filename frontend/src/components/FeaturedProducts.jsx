@@ -28,6 +28,7 @@ const FeaturedProducts = () => {
                     </div>
                 </div>
             </div>
+            <button>See More Products</button>
         </section>
         
      );

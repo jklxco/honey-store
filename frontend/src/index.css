@@ -38,9 +38,9 @@ nav {
 /* HERO */
 
 .hero-container {
-  background-color: var(--clr-gold);
+  background-color: var(--clr-peach);
   font-size: 2rem;
-  padding-left: 2rem;
+  padding: 3rem 2rem;
 }
 
 .hero-container button {
@@ -50,4 +50,25 @@ nav {
   font-weight: 600;
   border-radius: 5px;
   font-size: 1rem
+}
+
+/* FEATURED PRODUCTS */
+
+.featured-products h1 {
+  text-align: center;
+}
+
+.products-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.product-preview img {
+  width: 300px;
+  height: auto;
 }

@@ -1,6 +1,14 @@
+import './index.css'
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 const App = () => {
   return ( 
-    <h1>Welcome to the App</h1>
+    <>
+      <Navbar />
+      <Hero />
+    </>
+    
    );
 }
  

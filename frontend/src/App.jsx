@@ -1,17 +1,14 @@
 import './index.css'
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import FeaturedProducts from './components/FeaturedProducts';
-import WhyUs from './components/WhyUs';
+import Footer from './components/Footer';
+import Home from './pages/Home'
 
 const App = () => {
   return ( 
     <>
       <Navbar />
-      <Hero />
-      <FeaturedProducts />
-      <WhyUs />
-      
+      <Home />
+      <Footer />
     </>
     
    );

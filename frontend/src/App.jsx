@@ -1,7 +1,7 @@
 import './index.css'
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
-import Home from './pages/Home'
+import Home from './pages/Home/Home';
 
 const App = () => {
   return ( 

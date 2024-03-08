@@ -1,6 +1,5 @@
-import Image_Bees from '../assets/bees.jpg'
-import Image_Beekeeper from '../assets/beekeeper.jpg'
-
+import Image_Bees from '../../../assets/bees.jpg'
+import Image_Beekeeper from '../../../assets/beekeeper.jpg'
 
 const WhyUs = () => {
     return ( 

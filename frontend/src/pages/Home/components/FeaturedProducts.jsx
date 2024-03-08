@@ -1,4 +1,4 @@
-import Image from '../assets/honey-jar-1.png'
+import Image from '../../../assets/honey-jar-1.png'
 
 const FeaturedProducts = () => {
     

@@ -13,7 +13,10 @@ body {
 }
 
 section {
-  margin: 2rem 0rem;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 button {
@@ -49,7 +52,7 @@ nav {
 .hero-container {
   background-color: var(--clr-peach);
   font-size: 2rem;
-  padding: 3rem 2rem;
+  padding: 0rem 2rem;
 }
 
 .hero-container button {
@@ -67,6 +70,7 @@ nav {
   padding: 0 2rem;
   display: flex;
   flex-direction: column;
+  
 }
 
 .featured-products h1 {
@@ -157,7 +161,7 @@ nav {
 }
 
 .why-us-card * {
-  margin: 2rem;
+  margin: 1rem 2rem;
 }
 
 .why-us-card:nth-of-type(even) {
@@ -166,7 +170,6 @@ nav {
 
 .why-us-section h3 {
   font-size: 2rem;
-  
 }
 
 .why-us-section p {
@@ -182,6 +185,7 @@ nav {
 
 .testimonials-container {
   padding: 2rem;
+  min-height: 0;
 }
 
 .testimonial {

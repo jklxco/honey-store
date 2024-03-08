@@ -1,11 +1,13 @@
 const Footer = () => {
     return ( 
         <footer>
-            <div className="contact-details-container">
+            <div className="contact-details">
                 <h4>Email</h4>
                 <p>examples@examples.com</p>
                 <h4>Phone</h4>
                 <p>0123 456 7890</p>
+            </div>
+            <div className="address-details">
                 <h4>Our Address</h4>
                 <p>123 Fake Street</p>
                 <p>Fake City</p>

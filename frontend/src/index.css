@@ -13,7 +13,6 @@ body {
 }
 
 section {
-  padding: 2rem;
   margin: 2rem 0rem;
 }
 
@@ -104,13 +103,57 @@ nav {
 
 /* WHY US SECTION */
 
+.custom-shape-divider-top-1709899883 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1709899883 svg {
+  position: relative;
+  display: block;
+  width: calc(133% + 1.3px);
+  height: 128px;
+}
+
+.custom-shape-divider-top-1709899883 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1709899597 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1709899597 svg {
+  position: relative;
+  display: block;
+  width: calc(133% + 1.3px);
+  height: 128px;
+}
+
+.custom-shape-divider-bottom-1709899597 .shape-fill {
+  fill: #FFFFFF;
+}
+
 .why-us-section {
   background-color: var(--clr-gold);
+  position: relative;
+  padding-bottom: 128px;
+  padding-top: 128px;
+  
 }
 
 .why-us-card {
   display: flex;
-  padding-top: 1rem;
 }
 
 .why-us-card * {
@@ -119,11 +162,6 @@ nav {
 
 .why-us-card:nth-of-type(even) {
   flex-direction: row-reverse;
-}
-
-.why-us-section h1 {
-  text-align: center;
-  font-size: 2rem;
 }
 
 .why-us-section h3 {
